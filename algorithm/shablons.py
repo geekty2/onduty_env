@@ -1,13 +1,12 @@
-
 # Example usage:
 data_sources = {
-    "04.03": "C0",
+    "04.03": "C1",
     "05.03": "C1",
-    "06.03": "C2",
-    "07.03": "C0",
+    "06.03": "C1",
+    "07.03": "C1",
     "08.03": "C1",
-    "09.03": "C0",
-    "10.03": "МК"
+    "09.03": "C1",
+    "10.03": "C1"
 }
 
 scheme = {
@@ -25,6 +24,27 @@ big_naryad = {
     "Ст.ЧП": (1, "get_kursant_boy"),
     "ЧП": (9, "get_kursant_boy")
 }
+# big_naryad2 = {
+#     "ЧК": "get_sergant",
+#     "ДК": "get_kursant_boy",
+#     "ДК": "get_kursant_boy",
+#     "ДЖГ": "get_girl",
+#     "ЧНК": "get_sergant",
+#     "ПЧНК": "get_kursant_boy",
+#     "ПЧНК": "get_kursant_boy",
+#     "ПЧНК": "get_kursant_boy",
+#     "Ст.ЧП": "get_kursant_boy",
+#     "ЧП": "get_kursant_boy",
+#     "ЧП": " get_kursant_boy",
+#     "ЧП": "get_kursant_boy",
+#     "ЧП": "get_kursant_boy",
+#     "ЧП": "get_kursant_boy",
+#     "ЧП": "get_kursant_boy",
+#     "ЧП": "get_kursant_boy",
+#     "ЧП": "get_kursant_boy",
+#     "ЧП": "get_kursant_boy"
+# }
+
 small_naryad = {
     "ЧК": (1, "get_sergant"),
     "ДК": (2, "get_kursant_boy"),
